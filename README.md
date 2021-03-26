@@ -1,3 +1,3 @@
 # souza-exception
 
-API simples para centralizar exceções usadas nos projetos da Souza.eti.br.
+API simples para centralizar exceções usado nos projetos da Souza.eti.br.
