@@ -6,7 +6,7 @@
     <version>0.0.1</version>
     <packaging>jar</packaging>
     <name>souza-exception</name>
-    <description>API de exceções da Souza.eti.br.</description>
+    <description>API para exceções da Souza.eti.br.</description>
     <url>http://www.souza.eti.br/</url>
     <developers>
         <developer>
