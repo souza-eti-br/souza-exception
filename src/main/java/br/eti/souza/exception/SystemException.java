@@ -28,7 +28,7 @@ public class SystemException extends Exception {
      * @param cause Causa da exceção.
      */
     public SystemException(Throwable cause) {
-        super(cause);
+        super(null, cause);
         this.i18nMessage = null;
     }
 

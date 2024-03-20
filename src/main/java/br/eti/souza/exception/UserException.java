@@ -22,7 +22,9 @@ public class UserException extends Exception {
      */
     public UserException(I18nMessage message) {
         super(message != null ? message.getKey() : (String) null);
-        this.i18nMessages.add(message);
+        if (message != null) {
+            this.i18nMessages.add(message);
+        }
     }
 
     /**
@@ -30,7 +32,7 @@ public class UserException extends Exception {
      * @param cause Causa da exceção.
      */
     public UserException(Throwable cause) {
-        super(cause);
+        super(null, cause);
     }
 
     /**
@@ -40,7 +42,9 @@ public class UserException extends Exception {
      */
     public UserException(I18nMessage message, Throwable cause) {
         super((message != null ? message.getKey() : (String) null), cause);
-        this.i18nMessages.add(message);
+        if (message != null) {
+            this.i18nMessages.add(message);
+        }
     }
 
     /**
@@ -48,7 +52,9 @@ public class UserException extends Exception {
      * @param message Mensagem internacionalizada da exceção.
      */
     public void addI18nMessage(I18nMessage message) {
-        this.i18nMessages.add(message);
+        if (message != null) {
+            this.i18nMessages.add(message);
+        }
     }
 
     /**
