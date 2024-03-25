@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project-shared-configuration>
     <properties xmlns="http://www.netbeans.org/ns/maven-properties-data/1">
+        <netbeans.hint.jdkPlatform>JDK_21__System_</netbeans.hint.jdkPlatform>
         <org-netbeans-modules-editor-indent.text.x-go.CodeStyle.project.enable-indent>true</org-netbeans-modules-editor-indent.text.x-go.CodeStyle.project.enable-indent>
         <org-netbeans-modules-editor-indent.text.x-toml.CodeStyle.project.enable-indent>true</org-netbeans-modules-editor-indent.text.x-toml.CodeStyle.project.enable-indent>
         <org-netbeans-modules-editor-indent.text.x-json.CodeStyle.project.continuationIndentSize>4</org-netbeans-modules-editor-indent.text.x-json.CodeStyle.project.continuationIndentSize>
